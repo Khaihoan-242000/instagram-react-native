@@ -10,6 +10,11 @@ export const cmt = require("../assets/icons/cmt.png")
 export const seen = require("../assets/icons/seen.png")
 export const save = require("../assets/icons/save.png")
 
+export const addcmt = require("../assets/icons/addcmt.png")
+export const byecmt = require("../assets/icons/byecmt.png")
+export const heartcmt = require("../assets/icons/heartcmt.png")
+
+
 
 
 
@@ -24,5 +29,9 @@ export default {
     more,
     cmt,
     save,
-    seen
+    seen,
+
+    addcmt,
+    byecmt,
+    heartcmt
 }

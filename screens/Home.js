@@ -214,8 +214,36 @@ const Home = ({navigation}) => {
                             />
                             <Text style={{ marginLeft: 10}}>Thêm bình luận...</Text>
                         </View>
-                        <View>
-                            
+                        <View style={{ flexDirection: 'row', alignItems: 'center'}}>
+                            <TouchableOpacity>
+                                <Image 
+                                    source={icons.heartcmt}
+                                    style={{
+                                        width: 20,
+                                        height: 20,
+                                        marginRight: 10
+                                    }}
+                                />
+                            </TouchableOpacity>
+                            <TouchableOpacity>
+                                <Image 
+                                    source={icons.byecmt}
+                                    style={{
+                                        width: 20,
+                                        height: 20,
+                                        marginRight: 10
+                                    }}
+                                />
+                            </TouchableOpacity>
+                            <TouchableOpacity>
+                                <Image 
+                                    source={icons.addcmt}
+                                    style={{
+                                        width: 20,
+                                        height: 20
+                                    }}
+                                />
+                            </TouchableOpacity>
                         </View>
                     </View>
                 </View>

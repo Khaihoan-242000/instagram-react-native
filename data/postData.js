@@ -9,8 +9,8 @@ const postData = [
         cmt: '15',
         user: {
             userId: 1,
-            name: 'tranchaudenn',
-            avatar: images.avatar01
+            name: 'khhoan_le',
+            avatar: images.images01
         }
     },
     {
